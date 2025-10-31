@@ -1,0 +1,271 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-10-31",
+  "description": "OpenShift Control Plane team repositories. The github_url field allows slash commands to inspect repository source (e.g., go.mod files) at runtime to determine if Kubernetes dependency updates are needed.",
+  "repositories": [
+    {
+      "name": "openshift/installer",
+      "category": "core",
+      "description": "Responsible for creating all the main assets such as Ignition config files for bootstrapping",
+      "github_url": "https://github.com/openshift/installer"
+    },
+    {
+      "name": "openshift/kubernetes",
+      "category": "core",
+      "description": "Upstream Kubernetes fork with OpenShift modifications",
+      "github_url": "https://github.com/openshift/kubernetes"
+    },
+    {
+      "name": "openshift/openshift-apiserver",
+      "category": "core",
+      "description": "Serves additional OpenShift API groups",
+      "github_url": "https://github.com/openshift/openshift-apiserver"
+    },
+    {
+      "name": "openshift/cluster-openshift-apiserver-operator",
+      "category": "core",
+      "description": "Manages OpenShift API server",
+      "github_url": "https://github.com/openshift/cluster-openshift-apiserver-operator"
+    },
+    {
+      "name": "openshift/cluster-kube-apiserver-operator",
+      "category": "core",
+      "description": "Manages Kubernetes API server",
+      "github_url": "https://github.com/openshift/cluster-kube-apiserver-operator"
+    },
+    {
+      "name": "openshift/oauth-apiserver",
+      "category": "core",
+      "description": "Serves OAuth and user-related API groups",
+      "github_url": "https://github.com/openshift/oauth-apiserver"
+    },
+    {
+      "name": "openshift/oauth-server",
+      "category": "core",
+      "description": "Internal OAuth token management",
+      "github_url": "https://github.com/openshift/oauth-server"
+    },
+    {
+      "name": "openshift/cluster-authentication-operator",
+      "category": "core",
+      "description": "Configures OAuth stack",
+      "github_url": "https://github.com/openshift/cluster-authentication-operator"
+    },
+    {
+      "name": "openshift/etcd",
+      "category": "core",
+      "description": "Distributed key-value store",
+      "github_url": "https://github.com/openshift/etcd"
+    },
+    {
+      "name": "openshift/cluster-etcd-operator",
+      "category": "core",
+      "description": "Manages etcd instances",
+      "github_url": "https://github.com/openshift/cluster-etcd-operator"
+    },
+    {
+      "name": "openshift/raft",
+      "category": "library",
+      "description": "Raft protocol implementation",
+      "github_url": "https://github.com/openshift/raft"
+    },
+    {
+      "name": "openshift/bbolt",
+      "category": "library",
+      "description": "Embedded key-value database",
+      "github_url": "https://github.com/openshift/bbolt"
+    },
+    {
+      "name": "openshift/cli-manager",
+      "category": "core",
+      "description": "Manages CLI plugins",
+      "github_url": "https://github.com/openshift/cli-manager"
+    },
+    {
+      "name": "openshift/cli-manager-operator",
+      "category": "core",
+      "description": "Installs cli-manager",
+      "github_url": "https://github.com/openshift/cli-manager-operator"
+    },
+    {
+      "name": "openshift/krew-index",
+      "category": "library",
+      "description": "Centralized plugin index",
+      "github_url": "https://github.com/openshift/krew-index"
+    },
+    {
+      "name": "openshift/kubernetes-sigs-kueue",
+      "category": "core",
+      "description": "Job queueing APIs and controller",
+      "github_url": "https://github.com/openshift/kubernetes-sigs-kueue"
+    },
+    {
+      "name": "openshift/kueue-operator",
+      "category": "core",
+      "description": "Manages kueue installation",
+      "github_url": "https://github.com/openshift/kueue-operator"
+    },
+    {
+      "name": "openshift/route-controller-manager",
+      "category": "core",
+      "description": "Additional Route and Ingress controllers",
+      "github_url": "https://github.com/openshift/route-controller-manager"
+    },
+    {
+      "name": "openshift/run-once-duration-override",
+      "category": "core",
+      "description": "Mutating admission webhook",
+      "github_url": "https://github.com/openshift/run-once-duration-override"
+    },
+    {
+      "name": "openshift/run-once-duration-override-operator",
+      "category": "core",
+      "description": "Installs run-once webhook",
+      "github_url": "https://github.com/openshift/run-once-duration-override-operator"
+    },
+    {
+      "name": "openshift/secondary-scheduler-operator",
+      "category": "core",
+      "description": "Deploys custom scheduler",
+      "github_url": "https://github.com/openshift/secondary-scheduler-operator"
+    },
+    {
+      "name": "openshift/aws-encryption-provider",
+      "category": "encryption",
+      "description": "AWS KMS encryption provider",
+      "github_url": "https://github.com/openshift/aws-encryption-provider"
+    },
+    {
+      "name": "openshift/apiserver-network-proxy",
+      "category": "core",
+      "description": "Network communication proxy",
+      "github_url": "https://github.com/openshift/apiserver-network-proxy"
+    },
+    {
+      "name": "openshift/azure-kubernetes-kms",
+      "category": "encryption",
+      "description": "Azure Key Vault encryption provider",
+      "github_url": "https://github.com/openshift/azure-kubernetes-kms"
+    },
+    {
+      "name": "openshift/image-registry",
+      "category": "core",
+      "description": "Built-in container image registry",
+      "github_url": "https://github.com/openshift/image-registry"
+    },
+    {
+      "name": "openshift/cluster-image-registry-operator",
+      "category": "core",
+      "description": "Manages image registry",
+      "github_url": "https://github.com/openshift/cluster-image-registry-operator"
+    },
+    {
+      "name": "openshift/apiserver-library-go",
+      "category": "library",
+      "description": "API server helper library",
+      "github_url": "https://github.com/openshift/apiserver-library-go"
+    },
+    {
+      "name": "openshift/library-go",
+      "category": "library",
+      "description": "General helper library",
+      "github_url": "https://github.com/openshift/library-go"
+    },
+    {
+      "name": "openshift/cluster-kube-scheduler-operator",
+      "category": "core",
+      "description": "Manages Kubernetes scheduler",
+      "github_url": "https://github.com/openshift/cluster-kube-scheduler-operator"
+    },
+    {
+      "name": "openshift/cluster-kube-controller-manager-operator",
+      "category": "core",
+      "description": "Manages controller manager",
+      "github_url": "https://github.com/openshift/cluster-kube-controller-manager-operator"
+    },
+    {
+      "name": "openshift/openshift-controller-manager",
+      "category": "core",
+      "description": "OpenShift-specific controllers",
+      "github_url": "https://github.com/openshift/openshift-controller-manager"
+    },
+    {
+      "name": "openshift/cluster-openshift-controller-manager-operator",
+      "category": "core",
+      "description": "Manages OpenShift controllers",
+      "github_url": "https://github.com/openshift/cluster-openshift-controller-manager-operator"
+    },
+    {
+      "name": "openshift/hypershift",
+      "category": "core",
+      "description": "Hosted control planes for OpenShift",
+      "github_url": "https://github.com/openshift/hypershift"
+    },
+    {
+      "name": "openshift/cloud-provider-azure",
+      "category": "cloud-provider",
+      "description": "Azure cloud provider implementation",
+      "github_url": "https://github.com/openshift/cloud-provider-azure"
+    },
+    {
+      "name": "openshift/cloud-provider-gcp",
+      "category": "cloud-provider",
+      "description": "Google Cloud Platform provider implementation",
+      "github_url": "https://github.com/openshift/cloud-provider-gcp"
+    },
+    {
+      "name": "openshift/cloud-provider-openstack",
+      "category": "cloud-provider",
+      "description": "OpenStack cloud provider implementation",
+      "github_url": "https://github.com/openshift/cloud-provider-openstack"
+    },
+    {
+      "name": "openshift/cloud-provider-vsphere",
+      "category": "cloud-provider",
+      "description": "VMware vSphere cloud provider implementation",
+      "github_url": "https://github.com/openshift/cloud-provider-vsphere"
+    },
+    {
+      "name": "openshift/cloud-provider-ibm",
+      "category": "cloud-provider",
+      "description": "IBM Cloud provider implementation",
+      "github_url": "https://github.com/openshift/cloud-provider-ibm"
+    },
+    {
+      "name": "openshift/cloud-provider-aws",
+      "category": "cloud-provider",
+      "description": "AWS cloud provider implementation",
+      "github_url": "https://github.com/openshift/cloud-provider-aws"
+    },
+    {
+      "name": "openshift/cloud-provider-nutanix",
+      "category": "cloud-provider",
+      "description": "Nutanix cloud provider implementation",
+      "github_url": "https://github.com/openshift/cloud-provider-nutanix"
+    },
+    {
+      "name": "openshift/cloud-provider-powervs",
+      "category": "cloud-provider",
+      "description": "IBM Power Virtual Server cloud provider implementation",
+      "github_url": "https://github.com/openshift/cloud-provider-powervs"
+    },
+    {
+      "name": "openshift/cloud-provider-alibaba-cloud",
+      "category": "cloud-provider",
+      "description": "Alibaba Cloud provider implementation",
+      "github_url": "https://github.com/openshift/cloud-provider-alibaba-cloud"
+    },
+    {
+      "name": "openshift/cloud-provider-kubevirt",
+      "category": "cloud-provider",
+      "description": "KubeVirt cloud provider implementation",
+      "github_url": "https://github.com/openshift/cloud-provider-kubevirt"
+    },
+    {
+      "name": "openshift/cluster-cloud-controller-manager-operator",
+      "category": "cloud-provider",
+      "description": "Manages cloud controller manager",
+      "github_url": "https://github.com/openshift/cluster-cloud-controller-manager-operator"
+    }
+  ]
+}
